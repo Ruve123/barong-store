@@ -13,10 +13,10 @@ export default function CallToAction() {
         </p>
         <div className="mt-8 flex flex-wrap justify-center gap-3">
           <Button asChild>
-            <a href="mailto:hello@moponbarong.example">Order via Email</a>
+            <a href="mailto:hello@baronglokal.example">Order via Email</a>
           </Button>
           <Button asChild variant="light">
-            <a href="https://m.me/moponbarong" target="_blank" rel="noreferrer">
+            <a href="https://m.me/baronglokal" target="_blank" rel="noreferrer">
               Chat on Messenger
             </a>
           </Button>

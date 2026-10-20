@@ -15,7 +15,7 @@ export default function Header() {
     <header className="sticky top-0 z-40 border-b border-ink/10 bg-ivory/90 backdrop-blur">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6">
         <a href="#" className="font-serif text-xl tracking-wide">
-          Mopon <span className="text-gold">Barong</span>
+          Barong <span className="text-gold">Lokal</span>
         </a>
 
         <NavigationMenu.Root className="hidden md:block">

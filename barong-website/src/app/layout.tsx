@@ -9,7 +9,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Mopon Barong | Handcrafted Barong Tagalog",
+  title: "Barong Lokal | Handcrafted Barong Tagalog",
   description:
     "Shop handcrafted barong tagalog in piña, jusi and organza. Made-to-measure Filipino formal wear for weddings, graduations and every celebration.",
 };

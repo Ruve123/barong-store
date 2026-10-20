@@ -30,7 +30,7 @@ export default async function Footer() {
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-14 sm:px-6 md:grid-cols-[2fr_1fr_1fr_1fr]">
         <div>
           <p className="font-serif text-xl">
-            Mopon <span className="text-gold">Barong</span>
+            Barong <span className="text-gold">Lokal</span>
           </p>
           <p className="mt-3 max-w-xs text-sm text-ink/70">
             Handcrafted barong tagalog, made to measure and delivered nationwide.
@@ -54,7 +54,7 @@ export default async function Footer() {
         ))}
       </div>
       <div className="border-t border-ink/10 py-5 text-center text-xs text-ink/50">
-        © {new Date().getFullYear()} Mopon Barong. All rights reserved.
+        © {new Date().getFullYear()} Barong Lokal. All rights reserved.
       </div>
     </footer>
   );
