@@ -12,7 +12,7 @@ const links = [
 
 export default function Header() {
   return (
-    <header className="sticky top-0 z-40 border-b border-ink/10 bg-ivory/90 backdrop-blur">
+    <header className="sticky top-0 z-40 border-b border-gold bg-ink/95 text-ivory backdrop-blur">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6">
         <a href="#" className="font-serif text-xl tracking-wide">
           Barong <span className="text-gold">Lokal</span>
@@ -24,7 +24,7 @@ export default function Header() {
               <NavigationMenu.Item key={l.href}>
                 <NavigationMenu.Link
                   href={l.href}
-                  className="text-sm transition-colors hover:text-gold-dark"
+                  className="text-sm transition-colors hover:text-gold"
                 >
                   {l.label}
                 </NavigationMenu.Link>
@@ -41,7 +41,7 @@ export default function Header() {
           <Dialog.Root>
             <Dialog.Trigger
               aria-label="Open menu"
-              className="rounded-md p-2 hover:bg-sand md:hidden"
+              className="rounded-md p-2 hover:bg-ivory/10 md:hidden"
             >
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round">
                 <path d="M4 7h16M4 12h16M4 17h16" />

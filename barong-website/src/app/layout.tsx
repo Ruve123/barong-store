@@ -11,7 +11,7 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   title: "Barong Lokal | Handcrafted Barong Tagalog",
   description:
-    "Shop handcrafted barong tagalog in piña, jusi and organza. Made-to-measure Filipino formal wear for weddings, graduations and every celebration.",
+    "Shop handcrafted barong tagalog in our Venushia, Mono JJ and Hugo lines. Lightweight, wrinkle-resistant Filipino formal wear for weddings, graduations and every celebration.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

@@ -18,9 +18,9 @@ export default function About() {
         </h2>
         <p className="mt-6 text-ink/75">
           The barong tagalog has dressed Filipino weddings, ceremonies and
-          celebrations for generations. Each of our pieces begins with
-          sheer piña or jusi cloth and is embroidered stitch by stitch
-          (calado) by artisans who learned the craft from their families.
+          celebrations for generations. Barong Lokal by A&amp;J brings that
+          tradition into lightweight, wrinkle-resistant fabrics with detailed
+          embroidery, so it is as comfortable to wear as it is to look at.
         </p>
         <p className="mt-4 text-ink/75">
           We sell directly online, so you get heirloom quality without the

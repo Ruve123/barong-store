@@ -4,9 +4,9 @@ import type { ComponentProps } from "react";
 type Variant = "primary" | "outline" | "light";
 
 const variants: Record<Variant, string> = {
-  primary: "bg-gold text-white hover:bg-gold-dark",
+  primary: "bg-gold text-ink hover:bg-ivory",
   outline: "border border-ink/30 text-ink hover:border-gold hover:text-gold-dark",
-  light: "bg-ivory text-ink hover:bg-white",
+  light: "border border-gold text-gold hover:bg-gold hover:text-ink",
 };
 
 type ButtonProps = ComponentProps<"button"> & {

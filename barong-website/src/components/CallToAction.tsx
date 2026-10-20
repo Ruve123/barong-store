@@ -2,7 +2,7 @@ import Button from "@/components/ui/Button";
 
 export default function CallToAction() {
   return (
-    <section id="contact" className="bg-ink text-ivory">
+    <section id="contact" className="gold-frame bg-ink text-ivory">
       <div className="mx-auto max-w-3xl px-4 py-20 text-center sm:px-6 md:py-24">
         <h2 className="font-serif text-3xl sm:text-4xl">
           Your barong, made to your measure

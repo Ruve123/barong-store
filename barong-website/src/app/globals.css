@@ -1,18 +1,18 @@
 @import "tailwindcss";
 
 :root {
-  --background: #f8f5ea;
-  --foreground: #0f2a1f;
+  --background: #e4e2d3;
+  --foreground: #0d2e17;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --color-ivory: #f8f5ea;
-  --color-sand: #e8ecdc;
-  --color-ink: #0f2a1f;
-  --color-gold: #c4a05a;
-  --color-gold-dark: #8a6a2a;
+  --color-ivory: #e4e2d3;
+  --color-sand: #d5d3c0;
+  --color-ink: #0d2e17;
+  --color-gold: #d29b44;
+  --color-gold-dark: #8c5f1a;
   --font-sans: var(--font-inter);
   --font-serif: var(--font-playfair);
 }
@@ -29,4 +29,17 @@ body {
 
 section[id] {
   scroll-margin-top: 5rem;
+}
+
+/* Thin gold inset frame, echoing the product posters */
+.gold-frame {
+  position: relative;
+}
+
+.gold-frame::before {
+  content: "";
+  position: absolute;
+  inset: 1rem;
+  border: 1px solid var(--color-gold);
+  pointer-events: none;
 }
