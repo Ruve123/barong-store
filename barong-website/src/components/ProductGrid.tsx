@@ -7,7 +7,7 @@ import { formatPrice, products, type Product } from "@/data/products";
 
 function ProductImage({ product }: { product: Product }) {
   return (
-    <AspectRatio.Root ratio={4 / 5} className="overflow-hidden rounded-lg bg-sand">
+    <AspectRatio.Root ratio={5 / 7} className="overflow-hidden rounded-lg bg-sand">
       {product.image ? (
         // eslint-disable-next-line @next/next/no-img-element
         <img src={product.image} alt={product.name} className="h-full w-full object-cover" />

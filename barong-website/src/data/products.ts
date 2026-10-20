@@ -5,61 +5,67 @@ export type Product = {
   description: string;
   price: number; // PHP
   tag?: string;
-  /** Optional image under /public, e.g. "/products/pina-classic.jpg". Falls back to a placeholder. */
+  /** Optional image under /public, e.g. "/products/venushia-burgundy.jpg". Falls back to a placeholder. */
   image?: string;
 };
 
 export const products: Product[] = [
   {
-    id: "pina-classic",
-    name: "Classic Piña Barong",
-    fabric: "Piña",
+    id: "venushia-burgundy",
+    name: "Venushia Burgundy Barong",
+    fabric: "Venushia",
     description:
-      "Sheer pineapple-fiber barong with fine calado embroidery along the placket and cuffs.",
-    price: 8900,
+      "Lightweight, wrinkle-resistant barong in burgundy with red embroidery and lace-panel accents. Available in S, M and L.",
+    price: 4200,
     tag: "Bestseller",
+    image: "/products/venushia-burgundy.jpg",
   },
   {
-    id: "jusi-heritage",
-    name: "Heritage Jusi Barong",
-    fabric: "Jusi",
+    id: "venushia-black",
+    name: "Venushia Black Barong",
+    fabric: "Venushia",
     description:
-      "Smooth, lightweight jusi with traditional floral embroidery. Ideal for weddings.",
-    price: 5200,
+      "Lightweight, wrinkle-resistant barong in black with geometric white embroidery and grey trim. Available in M, L and XL.",
+    price: 4200,
+    image: "/products/venushia-black.jpg",
   },
   {
-    id: "organza-modern",
-    name: "Modern Organza Barong",
-    fabric: "Organza",
+    id: "venushia-forest",
+    name: "Venushia Forest Barong",
+    fabric: "Venushia",
     description:
-      "A slim-cut barong in crisp organza with minimalist tonal embroidery.",
+      "Lightweight, wrinkle-resistant barong in deep forest green with white and green floral embroidery. Available in S, M and L.",
     price: 4200,
     tag: "New",
+    image: "/products/venushia-forest.jpg",
   },
   {
-    id: "pina-silk-royal",
-    name: "Royal Piña-Silk Barong",
-    fabric: "Piña-Silk",
+    id: "mono-jj-green",
+    name: "Mono JJ Green Barong",
+    fabric: "Mono JJ",
     description:
-      "Luxurious piña-silk blend with dense hand embroidery, made for the groom and principal sponsors.",
-    price: 12500,
-  },
-  {
-    id: "cocoon-everyday",
-    name: "Cocoon Everyday Barong",
-    fabric: "Cocoon",
-    description:
-      "Breathable cocoon fabric with subtle patterning — easy to wear to the office or events.",
+      "Lightweight, wrinkle-resistant barong in an emerald ombré with a subtle tonal geometric panel. Available in S, L and XL.",
     price: 3600,
+    image: "/products/mono-jj-green.jpg",
   },
   {
-    id: "ivory-wedding",
-    name: "Ivory Wedding Barong",
-    fabric: "Piña",
+    id: "mono-jj-grey",
+    name: "Mono JJ Grey Barong",
+    fabric: "Mono JJ",
     description:
-      "Ivory piña with gold-toned embroidery and mother-of-pearl buttons for the big day.",
-    price: 9800,
+      "Lightweight, wrinkle-resistant barong in a grey ombré with black floral embroidery and lace-panel front. Available in S, L and XL.",
+    price: 3600,
+    image: "/products/mono-jj-grey.jpg",
+  },
+  {
+    id: "hugo-mint",
+    name: "Hugo Mint Barong",
+    fabric: "Hugo",
+    description:
+      "Lightweight, wrinkle-resistant barong in fresh mint with fine cream floral embroidery. Available in Large.",
+    price: 3200,
     tag: "Limited",
+    image: "/products/hugo-mint.jpg",
   },
 ];
 
